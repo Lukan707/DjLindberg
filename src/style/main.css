@@ -3,7 +3,7 @@ body, html {
 }
 
 main {
-    background-image: url("");
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.recoveringself.com%2Fwp-content%2Fuploads%2F2020%2F10%2FDJ.jpeg&f=1&nofb=1&ipt=db5e46eb5298d2c10c9679633a73c6c85b1478b517d09337f962a33aa95082fa&ipo=images");
     background-size: cover; /* Adjust as needed */
     min-height: 100%;
     position: relative;
@@ -44,6 +44,8 @@ h1 {
 h4 {
     font-size: 2em;
     font-weight: bold;
+    position: relative;
+    z-index: 3;
 }
 
 section cite {
@@ -52,4 +54,9 @@ section cite {
 
 cite {
     font-size: 2em;
+}
+
+.contact-box {
+    background-color: rgba(0,0,0,0.4);
+    padding: 0.5em;
 }
