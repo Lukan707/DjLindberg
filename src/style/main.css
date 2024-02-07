@@ -1,0 +1,23 @@
+main {
+    background-color: navy;
+    color: white;
+    min-height: 100vh;
+    height: 100%;
+}
+
+nav {
+    background-color: lightgray;
+    color: navy;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+section cite {
+    margin: 15vh 0;
+}
+
+cite {
+    font-size: 2em;
+}
