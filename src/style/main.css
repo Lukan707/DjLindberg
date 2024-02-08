@@ -37,7 +37,7 @@ nav {
     color: lightgrey;
 }
 
-.nav-link:active, .navbar-brand:active {
+.nav-link:active {
     color: darkred;
 }
 
